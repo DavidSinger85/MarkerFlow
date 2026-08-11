@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use MetaBarFlow, please cite it using the metadata below."
+title: "MetaBarFlow: a generalised, marker-agnostic metabarcoding pipeline"
+abstract: >-
+  MetaBarFlow is a reproducible Illumina paired-end amplicon metabarcoding
+  pipeline (merge, quality check, primer trimming, DADA2 ASV inference, and
+  taxonomy assignment) that is configurable for any marker, with ready-to-use
+  configurations for 18S (protists), ITS (fungi), and 16S (bacteria/archaea).
+  It also includes a downstream statistics stage (filtering, rarefaction, and
+  dataset-quality diagnostics).
+type: software
+authors:
+  - family-names: Singer
+    given-names: David
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # <- add your ORCID
+version: 1.0.0
+date-released: "2026-08-10"
+license: MIT
+repository-code: "https://github.com/DavidSinger85/MetaBarFlow"
+url: "https://github.com/DavidSinger85/MetaBarFlow"
+keywords:
+  - metabarcoding
+  - amplicon
+  - DADA2
+  - ASV
+  - 18S
+  - ITS
+  - 16S
+  - bioinformatics
+# doi: "10.5281/zenodo.XXXXXXX"   # <- add the Zenodo DOI after the first release
+
+# An accompanying paper is in preparation. Once it is published, uncomment and
+# complete this block so "Cite this repository" points at the paper instead of
+# the software record:
+# preferred-citation:
+#   type: article
+#   title: "in prep"
+#   authors:
+#     - family-names: Singer
+#       given-names: David
+#   journal: "in prep"
+#   year: 2026
+#   doi: "10.XXXX/XXXXX"

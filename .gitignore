@@ -1,0 +1,39 @@
+# =============================================================================
+# MetaBarFlow — .gitignore
+# Keep the repository to code, configuration, docs, and the small example data.
+# Never commit reference databases or generated pipeline output.
+# =============================================================================
+
+# --- Reference databases (2+ GB — download separately, see INSTALL.md) -------
+databases/
+
+# --- Generated pipeline output ------------------------------------------------
+results/
+# Legacy output layout (pre-1.0.0), if any copies remain locally
+pipeline_*/
+
+# --- Project-level logs -------------------------------------------------------
+/logs/
+
+# --- Internal development notes (not part of the public release) --------------
+CLAUDE_BRIEFING.md
+SESSION_RESUME.md
+GITHUB_SETUP.md
+
+# --- Editor / tooling ---------------------------------------------------------
+.claude/
+.Rproj.user/
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+
+# --- OS cruft -----------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# NOTE: RAW_dataset/ IS committed on purpose — it is the small example dataset
+# used to test the pipeline (18S / ITS / 16S). Do not add it here.

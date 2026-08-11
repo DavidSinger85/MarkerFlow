@@ -1,0 +1,34 @@
+name: lint
+
+# Lightweight static checks — no sequencing data or reference databases needed.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  shellcheck:
+    name: ShellCheck (bash scripts)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ShellCheck
+        run: |
+          shellcheck --version
+          # Fail only on genuine errors, not style suggestions.
+          shellcheck --severity=error scripts/*.sh
+          # config.sh files are sourced, so their variables look "unused" (SC2034).
+          shellcheck --severity=error --shell=bash --exclude=SC2034 Pipeline_*/config.sh config/config_template.sh
+
+  rparse:
+    name: R syntax check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'release'
+      - name: Parse all R scripts and configs
+        run: |
+          Rscript -e 'files <- list.files(c("scripts", "config", "Pipeline_18S", "Pipeline_ITS", "Pipeline_16S", "Stats"), pattern = "[.]R$", full.names = TRUE); invisible(lapply(files, function(f) { cat("parsing", f, "\n"); parse(f) }))'
