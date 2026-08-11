@@ -27,7 +27,7 @@ keywords:
   - ITS
   - 16S
   - bioinformatics
-# doi: "10.5281/zenodo.XXXXXXX"   # <- add the Zenodo DOI after the first release
+doi: "10.5281/zenodo.21891536"
 
 # An accompanying paper is in preparation. Once it is published, uncomment and
 # complete this block so "Cite this repository" points at the paper instead of
