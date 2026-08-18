@@ -1,6 +1,6 @@
 # MarkerFlow
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21891536.svg)](https://doi.org/10.5281/zenodo.21891536)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21891535.svg)](https://doi.org/10.5281/zenodo.21891535)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Made with DADA2](https://img.shields.io/badge/ASVs-DADA2-1f77b4.svg)](https://benjjneb.github.io/dada2/)
 
@@ -249,7 +249,8 @@ for configuration and outputs.
 
 If you use MarkerFlow, please cite the pipeline itself. Citation metadata is in
 [`CITATION.cff`](CITATION.cff) — on GitHub, use the **"Cite this repository"** button in the
-sidebar. The archived release has a DOI: [10.5281/zenodo.21891536](https://doi.org/10.5281/zenodo.21891536).
+sidebar. The archive has a version-independent DOI that always resolves to the latest release:
+[10.5281/zenodo.21891535](https://doi.org/10.5281/zenodo.21891535).
 
 Please also cite the tools MarkerFlow depends on:
 
