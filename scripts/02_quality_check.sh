@@ -3,7 +3,7 @@
 # Script    : 02_quality_check.sh
 # Author    : David Singer
 # Date      : 2026-03-01
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Runs FastQC and MultiQC. Pre-trim (default) or post-trim mode.
 #              Pre-trim output  : STEP2_DIR/pre_trim/
 #              Post-trim output : STEP2_DIR/post_trim/

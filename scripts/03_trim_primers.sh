@@ -3,7 +3,7 @@
 # Script    : 03_trim_primers.sh
 # Author    : David Singer
 # Date      : 2026-03-01
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Trims primers from paired-end FastQ.gz files using Cutadapt.
 #              Parameters fully driven by config.sh (marker-specific).
 #              Handles read-through trimming when detected (e.g. ITS).

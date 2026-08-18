@@ -3,7 +3,7 @@
 # File      : config.sh
 # Author    : David Singer
 # Date      : 2026-03-01
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Marker-specific configuration file for the ITS metabarcoding
 #              pipeline (fungi). Sourced by all pipeline scripts. Based on
 #              primers ITS86F / ITS4R targeting the ITS2 region.

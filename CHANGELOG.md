@@ -1,9 +1,19 @@
 # Changelog
 
-All notable changes to MetaBarFlow are documented in this file.
+All notable changes to MarkerFlow are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.1.0] - 2026-08-18
+
+### Changed
+- **Renamed the project from MetaBarFlow to MarkerFlow.** An unrelated,
+  pre-existing metabarcoding pipeline of the same name (Sigsgaard et al. 2022,
+  <https://github.com/evaegelyng/MetaBarFlow>, DOI 10.5281/zenodo.7023055) was
+  already published, so the project was renamed to avoid citation ambiguity.
+  Pipeline behaviour is unchanged — only the name, repository URL, and
+  documentation are affected.
 
 ## [1.0.0] - 2026-08-10
 
@@ -42,4 +52,5 @@ First public release.
 - Sample-name derivation is now config-driven, not hardcoded to a project prefix.
 - `main.sh` usage examples now reference the correct configuration paths.
 
-[1.0.0]: https://github.com/DavidSinger85/MetaBarFlow/releases/tag/v1.0.0
+[1.1.0]: https://github.com/DavidSinger85/MarkerFlow/releases/tag/v1.1.0
+[1.0.0]: https://github.com/DavidSinger85/MarkerFlow/releases/tag/v1.0.0

@@ -3,7 +3,7 @@
 # Script    : main.sh
 # Author    : David Singer
 # Date      : 2026-03-01
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Master launcher for the metabarcoding pipeline. Executes one
 #              or more steps sequentially for a given marker configuration.
 #              Steps can be selected individually or combined to allow

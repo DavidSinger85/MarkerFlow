@@ -1,6 +1,6 @@
-# Contributing to MetaBarFlow
+# Contributing to MarkerFlow
 
-Thanks for your interest in improving MetaBarFlow! Contributions of all kinds are
+Thanks for your interest in improving MarkerFlow! Contributions of all kinds are
 welcome: bug reports, documentation fixes, new marker configurations, and code.
 
 ## Reporting bugs and requesting features
@@ -16,7 +16,7 @@ For bugs, include:
 
 ## Proposing a new marker
 
-MetaBarFlow is marker-agnostic — most new markers need only a new configuration,
+MarkerFlow is marker-agnostic — most new markers need only a new configuration,
 not new code:
 
 1. Copy the templates:

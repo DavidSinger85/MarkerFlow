@@ -1,5 +1,5 @@
 # =============================================================================
-# MetaBarFlow — .gitignore
+# MarkerFlow — .gitignore
 # Keep the repository to code, configuration, docs, and the small example data.
 # Never commit reference databases or generated pipeline output.
 # =============================================================================

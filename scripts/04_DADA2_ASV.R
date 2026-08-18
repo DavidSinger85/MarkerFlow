@@ -1,6 +1,6 @@
 # =============================================================================
 # File      : 04_DADA2_ASV.R
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Author    : David Singer
 # Date      : 2026-03-03
 # Description: DADA2 ASV generation pipeline.

@@ -2,7 +2,7 @@
 # =============================================================================
 # File      : config_template.sh
 # Author    : David Singer
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Template for marker-specific shell configuration.
 #              Copy this file to your Pipeline_<MARKER>/ directory, rename it
 #              config.sh, and fill in all PLACEHOLDER values.
@@ -12,7 +12,7 @@
 # =============================================================================
 
 # --- Project root (do not modify — resolved dynamically) ---------------------
-# Always points to the MetaBarFlow/ root regardless of where the script is run
+# Always points to the MarkerFlow/ root regardless of where the script is run
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 # =============================================================================

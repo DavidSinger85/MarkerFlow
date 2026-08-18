@@ -1,6 +1,6 @@
 # =============================================================================
 # File      : config.R
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Marker    : ITS (Fungi)
 # Author    : David Singer
 # Date      : 2026-03-03

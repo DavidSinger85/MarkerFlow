@@ -1,19 +1,19 @@
 # =============================================================================
 # File      : 00_import.R
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Author    : David Singer
 # License   : MIT
 # =============================================================================
 #
 # DESCRIPTION
 # -----------
-# First script of the MetaBarFlow statistics stage. Imports the pipeline's
+# First script of the MarkerFlow statistics stage. Imports the pipeline's
 # per-marker outputs (read matrix + taxonomic assignment table) and saves them
 # as a single standardised R object. No matrix modification is performed here.
 #
 # PIPELINE CONTEXT
 # ----------------
-# Raw sequencing data are processed upstream by the MetaBarFlow bioinformatics
+# Raw sequencing data are processed upstream by the MarkerFlow bioinformatics
 # pipeline (scripts/): merge -> quality check -> primer trimming (Cutadapt) ->
 # ASV inference + chimera removal (DADA2) -> taxonomic assignment (VSEARCH +
 # DADA2 assignTaxonomy). This script consumes the outputs of steps 4 and 5.
@@ -76,7 +76,7 @@
 # --- 1.1  Project name --------------------------------------------------------
 # Names the output object (.RData) and all output files. Change per project.
 
-PROJECT_NAME <- "MetaBarFlow"
+PROJECT_NAME <- "MarkerFlow"
 
 # --- 1.2  Paths ---------------------------------------------------------------
 # Paths are built relative to the Stats/ working directory. Open Stats.Rproj in

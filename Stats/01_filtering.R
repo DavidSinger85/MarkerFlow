@@ -1,13 +1,13 @@
 # =============================================================================
 # File      : 01_filtering.R
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Author    : David Singer
 # License   : MIT
 # =============================================================================
 #
 # DESCRIPTION
 # -----------
-# Second script of the MetaBarFlow statistics stage. Applies all matrix
+# Second script of the MarkerFlow statistics stage. Applies all matrix
 # transformations to the raw data imported by 00_import.R: taxonomic filtering,
 # rare ASV removal, quality filtering, sample exclusions, rarefaction, and
 # residual correction. Produces a fully processed DS object saved back to
@@ -71,7 +71,7 @@
 
 # --- 1.1  Project name --------------------------------------------------------
 
-PROJECT_NAME <- "MetaBarFlow"
+PROJECT_NAME <- "MarkerFlow"
 
 # --- 1.2  Paths ---------------------------------------------------------------
 

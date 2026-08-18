@@ -17,7 +17,7 @@
 #
 # PIPELINE CONTEXT
 # ----------------
-# This script is the third in the MetaBarFlow statistics stage:
+# This script is the third in the MarkerFlow statistics stage:
 #   00_import.R    → imports pipeline outputs → <PROJECT>.RData ($MR, $ASS)
 #   01_filtering.R → filters and corrects → <PROJECT>.RData ($MR_clean,
 #                    $MR_rare, $MR_cor, $PARAMS)
@@ -67,7 +67,7 @@
 
 # --- 1.1  Project identifiers -------------------------------------------------
 
-PROJECT_NAME <- "MetaBarFlow"
+PROJECT_NAME <- "MarkerFlow"
 MARKERS      <- c("18S", "ITS", "16S")
 
 MARKER_LABELS <- c(

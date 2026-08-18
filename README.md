@@ -1,4 +1,4 @@
-# MetaBarFlow
+# MarkerFlow
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21891536.svg)](https://doi.org/10.5281/zenodo.21891536)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -36,7 +36,7 @@ Each pipeline step writes its output to a subdirectory of `results/<MARKER>/` an
 ## Directory structure
 
 ```
-MetaBarFlow/
+MarkerFlow/
 ├── scripts/
 │   ├── main.sh                 ← master launcher — run this
 │   ├── 01_merge_fastq.sh
@@ -140,7 +140,7 @@ bash scripts/main.sh Pipeline_ITS/config.sh --steps 1,2,3,4,5
 bash scripts/main.sh Pipeline_16S/config.sh --steps 1,2,3,4,5
 ```
 
-> **Always run from the project root** (`MetaBarFlow/`), not from inside a subdirectory.
+> **Always run from the project root** (`MarkerFlow/`), not from inside a subdirectory.
 
 ### 5. Check outputs
 
@@ -163,7 +163,7 @@ data. The files are real sequencing reads **subsampled to ~3,000 read pairs each
 complete and the recommended smoke test:
 
 ```bash
-conda activate metabarflow
+conda activate markerflow
 # Steps 1–4 need no reference database; add step 5 once PR2 is in databases/
 bash scripts/main.sh Pipeline_18S/config.sh --steps 1,2,3,4
 ```
@@ -221,7 +221,7 @@ Documented templates with explanations for every parameter are in `config/`.
 
 ## Statistics stage
 
-The second stage of the MetaBarFlow workflow. Once the pipeline has produced the per-marker
+The second stage of the MarkerFlow workflow. Once the pipeline has produced the per-marker
 `MR`/`ASS` tables, the **statistics stage** under [`Stats/`](Stats/) turns them into filtered
 community matrices and dataset-quality diagnostic figures (read-depth distribution,
 reads-vs-richness, rarefaction curves, ASV length, % identity, filtering journey). It is a
@@ -247,11 +247,11 @@ for configuration and outputs.
 
 ## How to cite
 
-If you use MetaBarFlow, please cite the pipeline itself. Citation metadata is in
+If you use MarkerFlow, please cite the pipeline itself. Citation metadata is in
 [`CITATION.cff`](CITATION.cff) — on GitHub, use the **"Cite this repository"** button in the
 sidebar. The archived release has a DOI: [10.5281/zenodo.21891536](https://doi.org/10.5281/zenodo.21891536).
 
-Please also cite the tools MetaBarFlow depends on:
+Please also cite the tools MarkerFlow depends on:
 
 - **DADA2**: Callahan et al. (2016) *Nature Methods* 13:581–583
 - **Cutadapt**: Martin (2011) *EMBnet.journal* 17:10–12

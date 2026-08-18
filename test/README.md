@@ -1,6 +1,6 @@
-# MetaBarFlow — Test Dataset
+# MarkerFlow — Test Dataset
 
-This document describes the test data included with MetaBarFlow and explains how to use it
+This document describes the test data included with MarkerFlow and explains how to use it
 to verify a fresh installation.
 
 The test FASTQ files are **real sequencing data** (not synthetic), kept small enough to run
@@ -86,8 +86,8 @@ Step 5 (taxonomy) requires the PR2 v5.1.0 database in `databases/PR2/` — see I
 If the database is present, add step 5 to the command below.
 
 ```bash
-# From the MetaBarFlow project root:
-conda activate metabarflow
+# From the MarkerFlow project root:
+conda activate markerflow
 bash scripts/main.sh Pipeline_18S/config.sh --steps 1,2,3,4
 ```
 

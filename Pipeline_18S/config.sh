@@ -3,7 +3,7 @@
 # File      : config.sh
 # Author    : David Singer
 # Date      : 2026-03-01
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Marker-specific configuration file for the 18S metabarcoding
 #              pipeline (protists / testate amoebae). Sourced by all pipeline
 #              scripts. To adapt for ITS or 16S, copy this file to the

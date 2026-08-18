@@ -1,4 +1,4 @@
-# MetaBarFlow — Statistics stage
+# MarkerFlow — Statistics stage
 
 A small, standalone R workflow that turns the pipeline's per-marker outputs into filtered
 community matrices and a set of dataset-quality diagnostic figures. It is **marker-agnostic** and

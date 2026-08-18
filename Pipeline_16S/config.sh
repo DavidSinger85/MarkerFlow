@@ -3,7 +3,7 @@
 # File      : config.sh
 # Author    : David Singer
 # Date      : 2026-03-01
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Marker-specific configuration file for the 16S metabarcoding
 #              pipeline (bacteria). Sourced by all pipeline scripts.
 #              Targets the V4-V5 region using primers 515FB / 926R.

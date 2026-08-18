@@ -3,7 +3,7 @@
 # File      : utils.sh
 # Author    : David Singer
 # Date      : 2026-03-01
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Shared utility functions for the metabarcoding pipeline.
 #              Uses log() wrapper instead of exec redirection for WSL2
 #              compatibility and safe nested script calls.

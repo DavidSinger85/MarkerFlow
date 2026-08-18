@@ -1,4 +1,4 @@
-# MetaBarFlow — Installation Guide
+# MarkerFlow — Installation Guide
 
 ## Requirements
 
@@ -27,10 +27,10 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-### 2. Create the MetaBarFlow environment
+### 2. Create the MarkerFlow environment
 
 ```bash
-conda create -n metabarflow -c bioconda -c conda-forge \
+conda create -n markerflow -c bioconda -c conda-forge \
     python=3.11 \
     cutadapt=4.9 \
     fastqc=0.12.1 \
@@ -38,7 +38,7 @@ conda create -n metabarflow -c bioconda -c conda-forge \
     vsearch=2.30.4 \
     r-base=4.3.3
 
-conda activate metabarflow
+conda activate markerflow
 ```
 
 ### 3. Install DADA2 inside R
@@ -61,7 +61,7 @@ packageVersion("dada2")   # should print 1.38.0
 The `Stats/` statistics stage needs a few CRAN packages. Install them via conda:
 
 ```bash
-conda install -n metabarflow -c conda-forge r-vegan r-ggplot2 r-patchwork r-scales
+conda install -n markerflow -c conda-forge r-vegan r-ggplot2 r-patchwork r-scales
 ```
 
 or from within R:
@@ -73,7 +73,7 @@ install.packages(c("vegan", "ggplot2", "patchwork", "scales"))
 ### 4. Verify all tools
 
 ```bash
-conda activate metabarflow
+conda activate markerflow
 cutadapt --version     # 4.9
 fastqc --version       # FastQC v0.12.1
 multiqc --version      # multiqc, version 1.33
@@ -168,7 +168,7 @@ databases/SILVA/silva_nr99_v138.2_train_set.fa.gz
 
 ## Windows / WSL2 notes
 
-MetaBarFlow is developed and tested on WSL2 (Ubuntu). All commands above work unchanged.
+MarkerFlow is developed and tested on WSL2 (Ubuntu). All commands above work unchanged.
 
 - Use a WSL2 path (`/mnt/d/...`) or a native Linux path — avoid Windows-style paths in bash.
 - Ensure `conda activate` works from WSL2: add `conda init bash` to your `~/.bashrc`.
@@ -181,12 +181,12 @@ MetaBarFlow is developed and tested on WSL2 (Ubuntu). All commands above work un
 From the project root, verify the pipeline can be sourced without errors:
 
 ```bash
-conda activate metabarflow
+conda activate markerflow
 source Pipeline_18S/config.sh
 echo "MARKER=${MARKER}, PROJECT_ROOT=${PROJECT_ROOT}"
 ```
 
 Expected output:
 ```
-MARKER=18S, PROJECT_ROOT=/path/to/MetaBarFlow
+MARKER=18S, PROJECT_ROOT=/path/to/MarkerFlow
 ```

@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use MetaBarFlow, please cite it using the metadata below."
-title: "MetaBarFlow: a generalised, marker-agnostic metabarcoding pipeline"
+message: "If you use MarkerFlow, please cite it using the metadata below."
+title: "MarkerFlow: a generalised, marker-agnostic metabarcoding pipeline"
 abstract: >-
-  MetaBarFlow is a reproducible Illumina paired-end amplicon metabarcoding
+  MarkerFlow is a reproducible Illumina paired-end amplicon metabarcoding
   pipeline (merge, quality check, primer trimming, DADA2 ASV inference, and
   taxonomy assignment) that is configurable for any marker, with ready-to-use
   configurations for 18S (protists), ITS (fungi), and 16S (bacteria/archaea).
@@ -13,11 +13,11 @@ authors:
   - family-names: Singer
     given-names: David
     # orcid: "https://orcid.org/0000-0000-0000-0000"   # <- add your ORCID
-version: 1.0.0
-date-released: "2026-08-10"
+version: 1.1.0
+date-released: "2026-08-18"
 license: MIT
-repository-code: "https://github.com/DavidSinger85/MetaBarFlow"
-url: "https://github.com/DavidSinger85/MetaBarFlow"
+repository-code: "https://github.com/DavidSinger85/MarkerFlow"
+url: "https://github.com/DavidSinger85/MarkerFlow"
 keywords:
   - metabarcoding
   - amplicon

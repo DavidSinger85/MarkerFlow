@@ -1,7 +1,7 @@
 # =============================================================================
 # File      : config_template.R
 # Author    : David Singer
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Template for marker-specific R configuration.
 #              Copy this file to your Pipeline_<MARKER>/ directory, rename it
 #              config.R, and fill in all PLACEHOLDER values.
@@ -161,7 +161,7 @@ VSEARCH_THREADS   <- 4
 # =============================================================================
 # SECTION 8 — Taxonomy levels
 # =============================================================================
-# MetaBarFlow uses a unified 9-level taxonomy regardless of the database.
+# MarkerFlow uses a unified 9-level taxonomy regardless of the database.
 # Levels not present in a given database are filled with NA automatically.
 #
 # Database-to-level mapping:
@@ -201,7 +201,7 @@ TAXO_STRIP_PREFIX <- FALSE
 
 # --- Optional: SILVA-specific level mapping ----------------------------------
 # Only needed when using a SILVA-formatted database that returns 6 levels
-# named differently from the MetaBarFlow 9-level standard.
+# named differently from the MarkerFlow 9-level standard.
 # Set to NULL for non-SILVA databases.
 #
 # Example for SILVA 138.2:

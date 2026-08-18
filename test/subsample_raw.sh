@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
 # Script    : subsample_raw.sh
-# Project   : MetaBarFlow – generalised metabarcoding pipeline
+# Project   : MarkerFlow – generalised metabarcoding pipeline
 # Description: Shrink the bundled example FASTQ files under RAW_dataset/ to a
 #              fixed maximum number of read pairs each, so the repository stays
 #              small enough for GitHub while still running the full pipeline
@@ -27,7 +27,7 @@ ROOT="${2:-RAW_dataset}"
 
 if [[ ! -d "${ROOT}" ]]; then
     echo "ERROR: directory not found: ${ROOT}" >&2
-    echo "Run from the MetaBarFlow project root." >&2
+    echo "Run from the MarkerFlow project root." >&2
     exit 1
 fi
 
